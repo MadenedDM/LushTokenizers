@@ -39,3 +39,7 @@ def test_math_text():
         tok("10024 + 489 - 702;")
         == "INT\t10024;\nPLUS;\nINT\t489;\nSUB;\nINT\t702;\nSEMICOLON;\nEOF;\n"
     )
+
+def test_strings():
+    assert tok('"Greetings!"') == "STRING\t'Greetings!';\nEOF;\n"
+    assert tok('"Hello World!"') == "STRING\t'Hello World!';\nEOF;\n"
