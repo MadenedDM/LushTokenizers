@@ -1,0 +1,23 @@
+print(2 - 3 + 4 - 5 + 6);
+
+print ( 122 - ( 78 + 4 ));
+print(1-1);
+print((1+300000-2));
+
+print(1, 2, 3);
+
+print( "Hello World" );
+print( "" );
+print("Sample text: Lorem Ipsum Est, Something something.")
+
+print( 'a' );
+print('b');
+
+fn foobar() {
+    print("Hello World");
+    print(12 - 4);
+}
+
+foobar();
+
+exit(4);
