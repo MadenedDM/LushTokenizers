@@ -1,0 +1,1 @@
+This folder is intended to contain tests that ensure that an output file properly matches an input file. Any Complete Tokenizer should pass all of these tests.
