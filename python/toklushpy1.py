@@ -7,7 +7,7 @@ from typing import Any, Generator, Optional
 
 
 END_OF_TOKEN = {" ", "\n"}
-TOKENS = {"+", "-", "(", ")", "[", "]", ";"}
+TOKENS = {"+", "-", "(", ")", "[", "]", ";"}  # Single Character Tokens Only
 
 
 class TokenEnum(StrEnum):
