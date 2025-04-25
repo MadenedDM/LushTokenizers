@@ -1,4 +1,4 @@
-from toklushpy1 import *
+from python.py_tok import *
 
 
 def tok(code: str) -> str:

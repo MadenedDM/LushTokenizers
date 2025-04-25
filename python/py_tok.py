@@ -227,7 +227,7 @@ def main(path: str):
         tokenizer = Tokenizer(content)
         tokcount = 0
 
-        with open(path.strip(".lush") + ".tok", mode="w") as write_target:
+        with open(path.removesuffix(".lush") + ".tok", mode="w") as write_target:
             for token in tokenizer:
                 # print(token, end="")
                 tokcount += 1
