@@ -1,4 +1,4 @@
-from python.py_tok import *
+from py_tok import *
 
 
 def tok(code: str) -> str:
