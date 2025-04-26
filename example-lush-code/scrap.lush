@@ -1,0 +1,12 @@
+fn quit() {
+    exit(14 + 8 - 2414);
+}
+
+fn foobar() {
+    print("Hello World!");
+    print(3 + 6 - 8)
+    quit();
+}
+
+print("Running");
+foobar();
